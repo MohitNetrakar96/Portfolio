@@ -1,0 +1,9 @@
+{
+  "/api/projects/route": "app/api/projects/route.js",
+  "/api/achievements/route": "app/api/achievements/route.js",
+  "/icon.png/route": "app/icon.png/route.js",
+  "/api/profile/route": "app/api/profile/route.js",
+  "/api/journey/route": "app/api/journey/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js"
+}
