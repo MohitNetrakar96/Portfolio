@@ -16,10 +16,6 @@ const nextConfig = {
       },
     ],
   },
-  // Prevent ESLint errors from blocking the Vercel production build
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
   // Type errors log as warnings but won't abort the build
   typescript: {
     ignoreBuildErrors: true,
