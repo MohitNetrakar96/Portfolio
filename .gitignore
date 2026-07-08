@@ -1,14 +1,12 @@
-# dependencies
+﻿# dependencies
 /node_modules
 /.pnp
 .pnp.js
 
-# testing
-/coverage
-
-# next.js
+# next.js build output - NEVER commit these
 /.next/
 /out/
+portfolio-app/.next/
 
 # production
 /build
@@ -22,7 +20,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# local env files
+# local env files - NEVER commit secrets
 .env*.local
 
 # vercel
@@ -32,8 +30,8 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# user-uploaded files (served from /public/uploads, not source-controlled)
+# user-uploaded files
 /public/uploads/
 
-# large binary video files (already unused in code)
+# large binary video files
 /public/videos/*.mp4
